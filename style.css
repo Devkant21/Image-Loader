@@ -1,0 +1,35 @@
+ @import url('https://fonts.googleapis.com/css?family+Ubuntu');
+
+ * {
+     box-sizing: border-box;
+ }
+
+ body {
+     font-family: 'Ubuntu', sans-serif;
+     display: flex;
+     flex-direction: column; 
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+     overflow: hidden;
+     margin: 0;
+ }
+ .bg {
+     /* background: url('https://scontent.fgau4-1.fna.fbcdn.net/v/t1.6435-9/122668801_3940633905966235_8967423904811872162_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=174925&_nc_ohc=ko4KkbhMVTkAX8-qpGi&_nc_ht=scontent.fgau4-1.fna&oh=00_AT_H80jG0UJhCV9AxXmvzBadpup9oCdZ-ZReSlI3AYVT7w&oe=61F6298F') */
+    /* background: url('https://scontent.fgau4-1.fna.fbcdn.net/v/t1.6435-9/129348955_4067975639898727_1974585210829102999_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=HG5qmDUG56AAX8Mehgg&_nc_ht=scontent.fgau4-1.fna&oh=00_AT_gzJG95Ywmr5Yuw8qX3PZP6kMJSg7HJcBibvLJAkg5QA&oe=61F4F3BF') */
+    /* background: url('https://crazyleafdesign.com/blog/wp-content/uploads/2012/10/6-50-beautiful-HD-wallpapers.jpg')  */
+    background: url('https://scontent.fgau4-1.fna.fbcdn.net/v/t1.18169-9/1506521_409157875914484_4441924050907987089_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=174925&_nc_ohc=-OVHS2lOPfEAX8q_XKC&_nc_ht=scontent.fgau4-1.fna&oh=00_AT-HnX_gRJfDCK0D995KFTkFxoRfi36OwjhX-6wUCoklGA&oe=61F354A0')
+    no-repeat center center;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width:calc(100vw + 20px);
+    height: calc(100vh + 20px);
+    z-index: -1;
+    filter: blur(0px)
+ }
+
+ .loading-text {
+     font-size: 50px;
+     color: #fff;
+ }
